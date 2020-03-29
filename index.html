@@ -2,23 +2,60 @@
 <html>
   <head>
         <style>
-            .center{
+                .Logo{
                 display: block;
                 padding-top: 148px;
                 padding-left: 624px;
                  }
+                
+                #search-bar{
+                    position:absolute;
+                    top: 135px;
+                    left: 256px;
+                }
+
+                #search-bar input{
+                    height: auto;
+                    width: 500px;
+                }
+
+                li{
+                    display: inline;
+                    margin: 0;
+                    padding: 0;
+                }
 
         </style>
     </head>
 <body>
 
-    <div class="center">
+    <div class="Logo">
 
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-            alt="Google Logo">
-
+            alt="Google Logo" width = "272" height = "92" > 
 
     </div>
+
+    <div id= "search-bar">
+
+        <form id="search-bar">
+            <input type= "text" class="searchTerm"
+            placeholder="">
+        </form>
+        
+
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="default.asp">About</a></li>
+            <li><a href="news.asp">Store</a></li>
+            <li><a href="contact.asp">Gmail</a></li>
+            <li><a href="about.asp">Images</a></li>
+          </ul> 
+
+    </nav>
+
 
 </body>
 
